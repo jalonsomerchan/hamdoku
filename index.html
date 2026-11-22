@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta name="description" content="Un pequeño juego de lógica con grandes mejillas.">
+  <title>Hamdoku — un sudoku muy mono</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app" id="app">
+    <header class="topbar"><button class="brand" data-go="home" aria-label="Hamdoku, inicio"><span class="brand-mark">✿</span> hamdoku<span class="brand-dot">.</span></button><span class="top-note">UN RATITO PARA TI <span>✳</span></span></header>
+    <div id="screen" class="screen"></div>
+    <footer><span>HECHO CON <span class="heart">♥</span> Y SEMILLITAS</span><span>© HAMDOKU CLUB</span></footer>
+  </main>
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title"></div>
+  <script src="levels.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
